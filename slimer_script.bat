@@ -70,6 +70,3 @@ dir %path2% /A /S >>%fileName%
 
 set otherDirectory=F:\Log\
 copy %fileName% %otherDirectory%
-
-
-
