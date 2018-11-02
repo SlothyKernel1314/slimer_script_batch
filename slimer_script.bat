@@ -64,9 +64,10 @@ echo At the end of the execution of the script, the window will close by itself.
 set path="C:\"
 dir %path% /A /S >%fileName%
 
-::same operation, fot an another directory
+::same operation, for an another directory
 set path2="F:\"
 dir %path2% /A /S >>%fileName%
 
+:: copy the backup fileName to an another directory
 set otherDirectory=F:\Log\
 copy %fileName% %otherDirectory%
